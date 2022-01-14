@@ -41,6 +41,6 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-empty-line-before-export
+* empty-line-before-export
 
 
