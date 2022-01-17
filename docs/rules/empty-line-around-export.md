@@ -1,4 +1,4 @@
-# Enforce an empty line only before default exports and between multiline exports (empty-line-before-export)
+# Enforce an empty line only before default exports and between multiline exports (empty-line-around-export)
 
 ## Rule Details
 
