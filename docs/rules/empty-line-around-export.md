@@ -8,9 +8,9 @@ Examples of **incorrect** code for this rule:
 
 ```js
 
-export const FIRST_CONST = 'first_contsant';
+export const FIRST_CONST = 'first_constant';
 // illegal empty line here between singleline exports
-export const SECOND_CONST = 'second_const';
+export const SECOND_CONST = 'second_constant';
 export function multiLineExport() {
     let dummVar = 1;
     return dummyVar;
@@ -23,8 +23,8 @@ Examples of **correct** code for this rule:
 
 ```js
 
-export const FIRST_CONST = 'first_contsant';
-export const SECOND_CONST = 'second_const';
+export const FIRST_CONST = 'first_constant';
+export const SECOND_CONST = 'second_constant';
 // correctly placed empty line here due to multiline export below
 export function multiLineExport() {
     let dummVar = 1;
